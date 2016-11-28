@@ -1,0 +1,151 @@
+/* position of POI-radar*/
+
+.radarContainer_left {
+	position:absolute;
+	bottom:10px;
+	right:15px;
+	width:100px;
+	height:100px;
+}
+
+.radarContainer_right {
+	position:absolute;
+    bottom:10px;
+    right:15px;
+    width:100px;
+    height:100px;
+}
+
+#panel-distance{
+    position:absolute;
+    bottom: 5px;
+    left:0px;
+    background:none;
+    height:auto;
+    width:80%;
+    font-size:14px;
+    display:inline-block;
+}
+
+#panel-distance-range{
+    display:none !important;
+}
+.distance-value{
+    position:absolute;
+    bottom:17px;
+    left:50px;
+}
+.ui-slider-track{
+    margin-left: 0px !important;
+}
+.btn-minus{
+    border-radius: 25px;
+    color: white !important;
+    border: 3px solid white;
+    background: none;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    position:absolute;
+    left:10px;
+    bottom:42px;
+}
+.btn-plus{
+    border-radius: 25px;
+    color: white !important;
+    border: 3px solid white;
+    background: none;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    position:absolute;
+    left:170px;
+    bottom:42px;
+}
+
+.ui-slider{
+    width:40%;
+    position:absolute;
+    left:60px;
+    bottom:40px;
+
+}
+/*
+#panel-poidetail{
+    display:visible !important;
+    border:1px solid black;
+    display:absolute;
+        left:200px;
+        top:100px;
+        width:150px;
+}*/
+
+#panel-poidetail{
+    display:absolute;
+    left:3px;
+    top:70px;
+    width:200px;
+    border-radius:20px;
+    border: 2px solid black;
+}
+.ui-panel{
+    min-height:100px !important;
+}
+
+.ui-panel-closed{
+    max-height:100px !important;
+}
+
+.ui-panel-inner{
+    height:100px;
+    padding:5px !important;
+}
+/*
+.ui-header{
+    height:30px;
+}
+.ui-title{
+    margin: .4em 0px .1em 65px !important;
+}
+.ui-btn-left{
+    height:22px;
+}
+.ui-btn-inner{
+    font-size:14px !important;
+    top:-5px; !important;
+}
+*/
+.ui-content{
+    padding:5px !important;
+}
+#poi-detail-title{
+     position:relative;
+     top:-20px !important;
+     text-align:center;
+}
+#poi-detail-description{
+    position:relative;
+    top:-35px !important;
+    text-align:center;
+}
+#poi-detail-distance-box{
+    position:relative;
+    top:-53px !important;
+    text-align:center;
+}
+#poi-detail-close{
+    position:relative;
+    top:-71px !important;
+    text-align:center;
+    color: gray;
+}
+
+#panel-distance-value{
+    color: white !important;
+}
+#panel-distance-places{
+    color: white !important;
+}
+.ui-slider-bg{
+    background: white !important;
+}

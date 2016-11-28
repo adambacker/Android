@@ -1,0 +1,14 @@
+/* position of POI-radar*/
+
+.distanceCtrl {
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	width:150px;
+	height:50px;
+}
+/*
+#panel-distance-range{
+    display:none !important;
+}
+*/
